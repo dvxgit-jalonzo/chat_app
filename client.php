@@ -7,13 +7,13 @@
 
 
     if (isset($_POST['send'])){
-        $message = $_REQUEST['message'];
-        $id = 1;
-
-        $array = array($id, $message);
+//        $message = $_REQUEST['message'];
+//        $id = 1;
+//
+//        $array = array($id, $message);
 
         /** @var TYPE_NAME $msg */
-        $msg->Create($array);
+//        $msg->Create($array);
 
         $sock = socket_create(AF_INET, SOCK_STREAM,0);
         socket_connect($sock, $host, $port);
