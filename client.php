@@ -7,7 +7,7 @@
 
 
     if (isset($_POST['send'])){
-//        $message = $_REQUEST['message'];
+        $message = $_REQUEST['message'];
 //        $id = 1;
 //
 //        $array = array($id, $message);
